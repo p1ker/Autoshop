@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+.auto-shop {
+    display: inline-block;
+    width: 12.5%;
+    margin-top: 3vh;
+    margin-left: 30vh;
+    padding:10px;
+    background-color: white;
+    color:rgb(54, 59, 97) ;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 48px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.autorization{
+    margin-right: 10px;
+    text-align: right;
+    color: white;
+}
+
+.autorization p{
+    display: inline-block;
+}
+
+.autorization a{
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background: #131747;
+}
+.main{
+    min-height: 20vh;
+    background: linear-gradient(to bottom, #3c4ea0, #131747);
+}
+
+.navigation{
+    display: inline-block;
+    list-style: none;
+}
+
+.navigation li{
+    margin-left: 75px;
+    color: white;
+    float: left ;
+    padding-right: 10vh;
+    font-size: 25px;
+}
+
+.logo{
+    width: 80%;
+    margin-left: 20vh;
+}
+
+hr{
+    margin-top: 5vh;
+    margin-bottom: 10px;
+}
+
+
+.foot{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    list-style: none;
+}
+
+.foot li{
+    color: #979797;
+    float: left ;
+    font-style: italic;
+    padding-right: 10vh;
+}
+
+.brands{
+    display: grid ;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    list-style: none;
+    align-items: center;
+}
+
+
+
+.brands img{
+    width: 150px; /* You can set the dimensions to whatever you want */
+    height: 150px;
+    object-fit: contain;
+    margin: 0 auto;
+}

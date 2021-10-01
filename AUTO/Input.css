@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+.auto-shop {
+    display: inline-block;
+    width: 12.5%;
+    margin-top: 3vh;
+    margin-left: 30vh;
+    padding:10px;
+    background-color: white;
+    color:rgb(54, 59, 97) ;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Stick No Bills', sans-serif;
+    font-size: 48px;
+    border-width: 5px;
+    border-color: black;
+}
+
+.autorization{
+    margin-right: 10px;
+    text-align: right;
+    color: white;
+}
+
+.autorization p{
+    display: inline-block;
+}
+
+.autorization a{
+    color: white;
+    text-decoration: none;
+}
+
+.main{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #3c4ea0, rgb(19, 23, 71));
+}
+
+body{
+    background-color: #131747;
+}
+.navigation{
+    display: inline-block;
+    list-style: none;
+}
+
+.navigation li{
+    margin-left: 75px;
+    color: white;
+    float: left ;
+    padding-right: 10vh;
+    font-size: 25px;
+}
+
+
+
+hr{
+    margin-top: 5vh;
+    margin-bottom: 10px;
+}
+
+
+.foot{
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 5vh;
+    list-style: none;
+}
+
+.foot li{
+    color: #979797;
+    float: left ;
+    font-style: italic;
+    padding-right: 10vh;
+}
+
+.input{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    margin-bottom: 5% ;
+}
+
+.input h1{
+    font-size: 30px;
+}
+
+.input label{
+    text-align: left;
+    padding: 10px;
+}
+
+.logo{
+    width: 80%;
+    filter: blur(10px);
+}
+
+.INP{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input input{
+    margin-left: 10px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
